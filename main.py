@@ -1,10 +1,8 @@
-num =int(input("enter a number: "))
-factorial=1
-if num<0:
-  print("factorial cannot be found for negative numbers")
-elif num ==0:
-  print("factorial of 0 is 1")
-else:
-  for i in range(1,num+1):
-    factorial = factorial * i 
-print("factorial of",num,"is",factorial)
+def factorial(n):
+  ifn==0:
+      return 1
+  else:
+      return n*factorial(n-1)
+ number=5
+  result=factorial(number)
+print(f"the factorial of {number} is {result}")
